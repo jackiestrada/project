@@ -1,0 +1,68 @@
+<!DOCTYPE <!DOCTYPE html>
+<html>
+<head>
+	<title>Mr.Pachecos Project</title>
+	<link rel="stylesheet" type="text/css" href="css/style.css">
+</head>
+<body>
+        	<h1>Amor al deporte</h1>
+        <div id=nav>
+        	<ul id="topnav">
+        		<li><a href="file:///Users/istudent/Desktop/Jacqueline%20Estrada%20/webpage%20for%20Pacheco/index.html">HOME</a></li>
+        		<li><a href="">INDOOR</a></li>
+        		<li><a href="file:///Users/istudent/Desktop/Jacqueline%20Estrada%20/webpage%20for%20Pacheco/outdoor.html">OUTDOOR</a></li>
+        		<li><a href="">SUPPORT</a></li>
+        		<li><a href="">GLOVES</a></li>
+        		<li><a href="">SHIN GUARDS</a></li>
+        		<li><a href="">UNIFORMES</a></li>
+            </ul>
+        </div>
+    <div id="video">
+        <iframe width="100%" height="40%" src="https://www.youtube.com/embed/pRZ-2MOEivM" frameborder="0" allowfullscreen></iframe>
+        <div id="training">
+        <h2>Training Schuedle</h2>
+            <ul>
+                 <li>U-6 will be training from 8:30 in the AM to 10:30 AM at Caton Parade Grounds field 2 Thursday June 27</li>
+                 <li>U-8 will be training from 10 AM to 12 PM at Caton Parade Grounds field 3 Thursday June 27</li>
+                <li>U-10 will be training from 12:30 PM to 3 at Redhook Park Field 1 Thursday June 27</li>
+                <li>U-15 will be traing with the coach from NYC Thursday June 27 at Barclays center at 4PM to 7PM  </li>
+                <li>U-12 will be holding try outs to join Brooklyn United FC at Redhook park field 2 at 4PM Friday June 28</li>
+                <li>U-14 will be holding try outs to join Union FC at Redhook park field 1 at 4:30 PM Friday June 28</li>
+                 <li>U-18 will be training at Caton Parade Grounds field 6 at 5 PM to 7:30 PM Friday June 28</li>
+            </ul>
+        </div>
+    </div>
+<div id="mainbody">     
+    <div id="banner">
+        <div id="h1">
+            <h1>Teams supported by you</h1>
+        </div>
+        <div class="slide">
+            <img class="mySlides" src="https://www.utm.utoronto.ca/athletics/sites/files/athletics/public/shared/2010UTMHumberEXTCoedSoccerChamps.jpg" alt="guysgirls">
+            <img class="mySlides" src="http://www.edmontonjournal.com/cms/binary/10690500.jpg" alt="littlekids">
+            <img class="mySlides" src="https://cmgpbpyouthsportsdaily.files.wordpress.com/2014/12/dsc_0348_cropped2.jpg" alt="brothers">
+            <img class="mySlides" src="http://www.miamiherald.com/sports/youth-sports/h86m15/picture23328177/ALTERNATES/FREE_640/CoralgablesSouthLede07" alt="girls">
+            <img class="mySlides" src="http://storage.lfpress.com/v1/dynamic_resize/sws_path/suns-prod-images/1297558073096_ORIGINAL.jpg?quality=80&size=650x&stmp=1399555167686" alt="girls">
+            <img class="mySlides" src="http://www.azkicksit.com/wp-content/uploads/2014/09/Arizona-State-University-Womens-soccer-vs-UCLA-McKenzie-Grossman1.jpg" alt="girlscollege">
+            <img class="mySlides" src="http://www.azkicksit.com/wp-content/uploads/2014/12/Arizona-Soccer-Showcase19.jpg" alt="girls">
+        </div>
+    </div>
+</div>
+<script>
+    var myIndex = 0;
+        carousel();
+
+    function carousel() {
+    var i;
+    var x = document.getElementsByClassName("mySlides");
+    for (i = 0; i < x.length; i++) {
+     x[i].style.display = "none";  
+    }
+    myIndex++;
+    if (myIndex > x.length) {myIndex = 1}    
+    x[myIndex-1].style.display = "block";  
+    setTimeout(carousel, 2000); // Change image every 8  seconds
+    }
+    </script>
+</body>
+</html>

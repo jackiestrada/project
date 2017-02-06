@@ -1,0 +1,113 @@
+
+body{
+	background-color: brown
+}
+
+ul{
+	list-style-type: none;
+	text-align: center;
+	margin:0;
+	padding: 0;
+	overflow: hidden;
+	background-color: #333333
+}
+
+li{
+	text-align: center;
+	font-family: Arial;
+}
+
+li a {
+	color: white;
+	padding: 50px;
+	text-decoration: none;
+}
+
+li a:hover {
+	background-color: #111111
+}
+
+h1 {
+	text-align: center;
+	font-family: 'Space Mono', monospace;
+	font-size: 50px;
+}
+#pq {
+	text-align: center;
+	font-family: 'Righteous', cursive;
+	font-size: 20px;
+}
+
+h2{
+	text-align: center;
+	font-family: 'Space Mono', monospace;
+	font-size: 35px;
+
+}
+
+#pic {
+	text-align: center;
+	font-family: 'Righteous', cursive;
+	font-size: 20px;
+}
+
+h3{
+	text-align: center;
+	font-family: 'Space Mono', monospace;
+	font-size: 35px;
+}
+
+#bc{
+	text-align: center;
+	font-family: 'Righteous', cursive;
+	font-size: 20px;
+}
+
+h4{
+	text-align: center;
+	font-family: 'Space Mono', monospace;
+	font-size: 35px;
+}
+
+#bg{
+	text-align: center;
+	font-family: 'Righteous', cursive;
+	font-size: 20px;
+}
+
+#nav li{
+	display: inline-block;
+	border-right: 5px solid #bbb;
+}
+
+#nav{
+	text-align:right;
+
+}
+#ic img {
+	margin-left: 25%;
+}
+
+#video{
+	padding-left: 670px;
+	padding-right: 670px;
+}
+
+#footer{
+	text-align: center;
+	font-family: font-family: 'Righteous', cursive;
+	font-size: 25px;
+
+}
+
+
+
+
+
+
+
+
+
+
+
+

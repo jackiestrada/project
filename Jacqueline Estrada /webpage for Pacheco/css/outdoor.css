@@ -1,0 +1,82 @@
+body{
+  margin: 0;
+  background-image: url(http://www.spgenergy.com/blog/wp-content/uploads/2016/02/Soccer-Ball-and-Field.png);
+  background-size: cover;
+    background-repeat: none;
+}
+
+#nav{
+    position: relative;
+    margin: 0;
+	width: 100%;
+    height: 50px;
+}
+
+#topnav ul{
+    margin: 0;
+}
+
+#topnav{
+	list-style-type: none;
+	padding: 0;
+	overflow: hidden;
+	background-color: black;
+    text-align: center;
+}
+
+#topnav li {
+    display: inline-block;
+	width: 13%;
+}
+
+#topnav li a {
+  margin: auto;
+	display: inline-block;
+	color: white;
+	text-align: center;
+	text-decoration: none;
+	font-size: 18px;
+}
+
+#topnav li a:hover{
+	background-color: grey;
+}
+
+@media screen and (max-width: 680px){
+	ul.topnav li:not (:first-child) {
+		display: none;
+	}
+}
+
+@media screen and (max-width:680px) {
+  ul.topnav.responsive {position: relative;}
+  ul.topnav.responsive li.icon {
+    position: absolute;
+    right: 0;
+    top: 0;
+  }
+
+  ul.topnav.responsive li {
+    float: none;
+    display: inline;
+  }
+
+  ul.topnav.responsive li a {
+    display: block;
+    text-align: left;
+  }
+}
+
+#out{
+  height: 575px;
+  width: 100%;
+  border-style: solid;
+  border-radius: 20%;
+}
+
+#out h2{
+  text-align: center;
+  color: white;
+  font-family: 'Patua One', cursive;
+  font-size: 30px;
+}

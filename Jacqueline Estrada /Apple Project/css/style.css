@@ -1,0 +1,332 @@
+body{
+	background-color: grey;
+	margin: 0;
+    width: 100%;
+    height: 100%;
+}
+
+#nav{
+    position: relative;
+	margin: 0;
+}
+
+.topnav{
+    margin: 0;
+	list-style-type: none;
+	text-align: center;
+	padding: 0;
+	overflow: hidden;
+	background-color: black;
+}
+
+.topnav li{ 
+	display: inline-block;
+	font-family: 'PT Sans Narrow', sans-serif;
+
+} 
+
+.topnav li:nth-child() {
+
+}
+
+.topnav li a{
+	display: inline-block;
+	color: white;
+	margin-left: 85px;
+	padding: 0 10px 0 0;
+	text-decoration: none;
+	transition: 0.3s;
+	font-size: 30px;
+    width: 10%;
+}
+
+.topnav li a:hover{ 
+	background-color:  none;
+	color: #43484f;
+}
+
+.topnav input[type=text] {
+    width: 130px;
+    -webkit-transition: width 0.4s ease-in-out;
+    transition: width 0.4s ease-in-out;
+    padding: 9px 10px;
+}
+
+ #bar{ 
+ 	height:10px;
+ 	width:100px;
+    padding-bottom: .1px;
+}
+
+#banner{
+    position: relative;
+    width: 100%;
+	height: 500px;
+	margin: 0;
+
+}
+
+#h1 {
+    margin: auto;
+    color: white;
+    font-size: 20px;
+    background-color: black;
+    border-top-right-radius: 25px;
+    border-top-left-radius: 25px;
+    border-bottom-right-radius: 25px;
+    border-bottom-left-radius: 25px;
+    width: 300px;
+    height: 50px;
+    text-align: center;
+    font-family: 'PT Sans Narrow', sans-serif;
+    text-decoration: underline;
+}
+
+.slide {
+    width: 800px;
+    height: 400px;
+    margin:auto;
+}
+
+.slide img {
+    width: 100%;
+    height: 100%;
+}
+
+@media only screen and (min-width: 651px) {
+	body{
+		background-color: grey;
+	}
+}
+
+@media only screen and (min-width: 651px) {
+	.topnav{
+		background-color: black;
+	}
+}
+
+h3{
+	text-align: center;
+	text-decoration: underline;
+}
+
+#mainbody {
+    position: relative;
+    margin: 0;
+    width: 100%;
+    height: auto;
+    background: url(../img/goldback2.jpg) no-repeat;
+    background-size:100% 100%;
+    background-attachment: fixed;
+    opacity: 0.9;
+    
+}
+#bodycontent {
+    position: relative;
+    margin: 0;
+    width: 100%;
+    height: 1275px;
+}
+
+#top {
+    position: relative;
+    margin: 0;
+    width: 100%;
+    height: 50%;
+}
+
+#watch {
+    position: absolute;
+    width: 40%;
+    height: 85%;
+    margin: auto;
+        top: 4%;
+        left: 2.5%;
+    background: rgba(1,1,1,0.5);
+    border: 2px solid #000;
+    border-radius: 50px;
+    text-shadow: 2px 1px black;
+    color: white;
+    box-shadow: 5px 5px 15px black;
+}
+#watch h1 {
+	font-family: 'PT Sans Narrow', sans-serif;
+    font-size: 3em;
+    text-decoration: underline;
+}
+#watch1 {
+    text-align: center;
+}
+#descont {
+    position: absolute;
+        top: 19%;
+}
+#descont p {
+    font-size: 2.2em;
+}
+#phones {
+    position: absolute;
+    width: 40%;
+    height: 85%;
+    margin: auto;
+        top: 4%;
+        right: 2.5%;
+    background: rgba(1,1,1,0.5);
+    background-size: 100% 100%;
+    border: 2px solid #000;
+    border-radius: 50px;
+    text-shadow: 2px 1px black;
+    color: white;
+    box-shadow: 5px 5px 15px black;
+}
+#phones h1 {
+	font-family: 'PT Sans Narrow', sans-serif;
+    font-size: 3em;
+    text-decoration: underline;
+}
+#phones1 {
+    text-align: center;
+}
+
+#boxiphones {
+    position: absolute;
+    width: 100%;
+    height: 150 c px;
+    border-bottom-left-radius: 35px;
+    border-bottom-right-radius: 35px;
+}
+
+#hhcont {
+    position: absolute;
+        top: 12%;
+        left: 17.5%;
+}
+#hhcont p {
+    font-size: 2em;
+    opacity: 1;
+}
+
+#bottom {   
+    position: relative;
+    margin: 0;
+    width: 100%;
+    height: 50%;
+}
+#accessories {
+    position: absolute;
+    width: 75%;
+    height: 70%;
+    margin: auto;
+        top: 4%;
+        left: 10.5%;
+    background: rgba(1,1,1,0.5);
+    border: 2px solid #000;
+    border-radius: 50px;
+    text-shadow: 2px 1px black;
+    color: white;
+    box-shadow: 5px 5px 15px black;
+}
+#accessories h1 {
+	font-family: 'PT Sans Narrow', sans-serif;
+    font-size: 3em;
+    text-decoration: underline;
+}
+#accessories1 {
+    text-align: center;
+}
+#accessories1 p {
+    font-size: 2em;
+}
+
+#popcontent{
+    position: relative;
+    margin: 0;
+    background-color: black;
+    font-family: 'PT Sans Narrow', sans-serif;
+    text-align: center;
+
+}
+
+#pop{
+    width: 100%;
+    height: 150px;
+    
+}
+
+#pop ul {
+    background-color: black;
+    color:white;
+    font-size: 10px;
+    display: inline-block;
+    list-style: none;
+    margin: 0px;
+    padding:0 150px 0 50px;
+}
+
+#pop ul li:hover{
+    color: black;
+}
+
+#applefin{
+    color: white;
+    font-family: 'PT Sans Narrow', sans-serif;
+    text-align: center;
+}
+
+#boxiphones{
+    color: white;
+}
+
+#boxiphones ul{
+    color: white;
+    list-style: none;
+}
+
+#boxiphones ul li:hover{
+    color: black;
+}
+
+#boxacc{
+    color: white;
+}
+
+#boxacc ul{
+    color: white;
+    list-style: none;
+}
+
+#boxacc ul li:hover{
+    color: black;
+}
+
+#watchtypes{
+    color: white;
+}
+
+#watchtypes ul{
+    color: white;
+    list-style: none;
+}
+
+#watchtypes ul li:hover{
+    color: black;
+}
+
+
+#copyright{
+    color: white;
+    font-family: 'PT Sans Narrow', sans-serif;
+    text-align: center;
+}
+
+
+
+
+
+
+
+
+
+
+
+
